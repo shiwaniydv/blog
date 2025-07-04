@@ -153,3 +153,11 @@ main {
     margin-top: 0.5rem;
     font-style: italic;
 }
+@media (max-width: 600px) {
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+}
